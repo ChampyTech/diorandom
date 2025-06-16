@@ -14,7 +14,7 @@ function generaBestemmia() {
         "Panettiere", "Bagnino", "Barista", "Corriere", "Tatuatore", "Magazziniere", "Cameriere",
         "YouTuber", "Social Media Manager", "Forno Elettrico", "Carta Igienica", "Tram di Milano", "Boia", "Pixelato",
         "Casse Bluetooth", "Cucchiaio Sporco", "Bidet Intelligente",
-        "Cane", "Maiale", "Asino", "Pavone", "Gatto", "Coltello", "Piatto", "Tazza", "Tram",
+        "Cane", "Maial@", "Asin@", "Pavone", "Gatto", "Piatto", "Tazza", "Tram",
         "Cucchiaio", "Letto", "Doccia", "Sedia", "Frigorifero", "Cuscino", "Armadio", "Tavolo",
         "Zaino", "Libro", "Matita", "Cimice", "Ragno", "Formica", "Neve", "Fumo", "Nebbia",
         "Vento", "Fulmine", "Tuono", "Fango", "Erba", "Sabbia", "Terra", "Sasso", "Cemento",
@@ -32,7 +32,7 @@ function generaBestemmia() {
         "Zebra", "Telecomando", "Macchina Fotografica", "Pannello Solare", "Biscottiera", "Limone",
         "Cacciavite", "Trivella", "Palo della Luce", "Semolino", "Spray Igienizzante", "Tenda da Campeggio",
         "Disco Volante", "Borsa Frigo", "Bancomat", "Cintura di Sicurezza", "Carrello della Spesa", "Proiettore",
-        "AutoCAD", "Terremoto", "Sigma", "Chad", "Burundi", "Atmosfera", "Pianeta", "Gigante"
+        "AutoCAD", "Terremoto", "Sigma", "Chad", "Burundi", "Atmosfera", "Pianeta", "Gigante", "Trattore", "Televisione", "Polpettone", "Stagista", "Costumista", "Comunista", "Fascista", "Omosessuale", "Tendone", "Bastard@", "Dev-C++", "Volkswagen", "Schifos@", "fa schifo", "Ladr@", "Coglion@", "Maledett@", "Stronz@", "Cubo di Rubik", "Libro Scolastico", "Lurid@", "Sporc@", "Poster", "Torta di Fragole", "Congelat@", "Lampadario", "Sparacarote", "Tapparella", "Mensola", "Tigre", "Bisonte", "Dinosauro", "Milano", "Amsterdam", "Termosifone", "Albero di Natale", "Inutile", "Puzzolente", "Interruttore", "Post-it", "Gnomo", "Libreria", "Insetto"
     ];
 
     const soggetto = soggetti[Math.floor(Math.random() * soggetti.length)];
