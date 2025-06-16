@@ -1,0 +1,54 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #111;
+    color: #ccc;
+    text-align: center;
+}
+
+h1 {
+    color: #ff6666;
+    font-size: 40px;
+}
+
+#descrizione {
+    font-size: 18px;
+    margin-top: 30px;
+    max-width: 600px;
+    width: 100%;
+    margin: 50px auto;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+#bestemmia {
+    margin: 40px 0;
+    font-size: 32px;
+    font-weight: bold;
+    color: #00ffff;
+}
+
+button {
+    font-family: inherit;
+    font-weight: bold;
+    background: #ff6666;
+    border: 0;
+    padding: 15px 30px;
+    color: white;
+    font-size: 19px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #ff3333;
+}
+
+a {
+    color: #ccc;
+}
+
+footer {
+    margin-top: -15px;
+}
