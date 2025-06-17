@@ -52,7 +52,8 @@ const oggetti = [
     "Stramerda", "Straschifos@", "Straladr@", "Stracane", "Stratosferic@", "Pterodattilo", "Rinoceronte", "Elefante",
     "Automobile", "Macchina da Curire", "Macchina da Scrivere", "Stracretin@", "Stramaledett@", "Strastronz@",
     "Strabastard@", "Strasporc@", "Stralurid@", "Strafastidios@", "Strarincoglionit@", "Rompipalle", "Strarompipalle",
-    "Ferro da Stiro", "Regione Veneto", "Venet@"
+    "Ferro da Stiro", "Regione Veneto", "Venet@", "Ventilatore", "Pantofola", "Stracchino", "Prosciutto",
+    "Prosciutto Cotto", "Prosciutto Crudo", "Speck", "Lampada a LED", "Rai 1", "Rai 2"
 ];
 
 // Genera bestemmia
