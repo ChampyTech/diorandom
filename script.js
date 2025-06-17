@@ -2,7 +2,7 @@ const soggetti = [
     "Dio", "Gesù", "Cristo", "Madonna", "Spirito Santo",
     "San Pietro", "San Paolo", "San Gennaro", "San Giuseppe",
     "Sant’Antonio", "San Francesco", "Santa Maria", "Santa Chiara",
-    "Trinità", "Papa", "Messia"
+    "Trinità", "Papa", "Messia", "Signore"
 ];
 
 const oggetti = [
@@ -36,7 +36,23 @@ const oggetti = [
     "Volkswagen", "Schifos@", "fa schifo", "Ladr@", "Coglion@", "Maledett@", "Stronz@", "Cubo di Rubik",
     "Libro Scolastico", "Lurid@", "Sporc@", "Poster", "Torta di Fragole", "Congelat@", "Lampadario",
     "Sparacarote", "Tapparella", "Mensola", "Tigre", "Bisonte", "Dinosauro", "Milano", "Amsterdam", "Termosifone",
-    "Albero di Natale", "Inutile", "Puzzolente", "Interruttore", "Post-it", "Gnomo", "Libreria", "Insetto"
+    "Albero di Natale", "Inutile", "Puzzolente", "Interruttore", "Post-it", "Gnomo", "Libreria", "Insetto",
+    "Cavalluccio Marino", "Scaldabagno", "Vasca da Bagno", "Cuscino Termico", "Palloncino Bucato", "Pescepalla",
+    "Cacciavite Esagonale", "Telo da Mare", "Infradito", "Rincoglionit@", "Addormentat@", "Addormentat@", "Scatenat@",
+    "Strascatenat@", "Etichettatrice", "Fastidios@", "Sfulminat@", "Strasfulminat@", "Cretin@", "Spray Antizanzare",
+    "Salvadanaio", "Idrossido di Sodio", "Idrossido di Potassio", "Cinese", "Montanar@", "Sparacazzate", "Agricoltore",
+    "Raccolta Differenziata", "Toro", "LGBTQIA+", "Amazon Prime", "Testa di Cazzo", "Portatelefono", "Obes@",
+    "Straobes@", "Straciccion@", "Ciccion@", "Organizer di Cavi", "Porc@", "Valigia", "Quercia", "Barcone",
+    "Figura Retorica", "Equazione di 2° Grado", "Equazione", "Scatolone", "Cassetta Porta Attrezzi", "Carta di Credito",
+    "Carta di Debito", "Contactless", "Bancomat", "Carta Regalo", "Vaso da Fiori", "Marciapiede", "Spalafieno",
+    "Cavallo", "Ippopotamo", "Posta Elettronica", "Appendiabiti", "Cappotto", "Portaombrelli", "Ignorante", "Pistacchio",
+    "Fibra Ottica", "Sistema Solare", "Cassetto", "Password", "Foglio Protocollo", "Foglio A4", "Cartuccia per Stampanti",
+    "Stran@", "Strastran@", "Data Center", "Database", "Autostrada", "Ricettario", "Sparamelanzane", "Tornado",
+    "Troglodita", "Trigliceridi", "Colesterolo", "Fosfolipide", "Melone", "Vacca", "Straporc@", "Straboia",
+    "Stramerda", "Straschifos@", "Straladr@", "Stracane", "Stratosferic@", "Pterodattilo", "Rinoceronte", "Elefante",
+    "Automobile", "Macchina da Curire", "Macchina da Scrivere", "Stracretin@", "Stramaledett@", "Strastronz@",
+    "Strabastard@", "Strasporc@", "Stralurid@", "Strafastidios@", "Strarincoglionit@", "Rompipalle", "Strarompipalle",
+    "Ferro da Stiro", "Regione Veneto", "Venet@"
 ];
 
 // Genera bestemmia
