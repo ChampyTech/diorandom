@@ -19,7 +19,7 @@ const oggetti = [
     "Vento", "Fulmine", "Tuono", "Fango", "Erba", "Sabbia", "Terra", "Sasso", "Cemento",
     "Vite", "Chiodo", "Martello", "Scala", "Corda", "Specchio", "Orologio", "Quadro",
     "Pannello", "Secchio", "Serpente", "Muro", "Porta", "Finestra", "Tappeto", "Coperta",
-    "Lavatrice", "Forno", "Bidet", "Cesso", "Lavandino", "Tastiera", "Cassa", "Minestra",
+    "Lavatrice", "Forno", "Bidet", "Cesso", "Lavandino", "Cassa", "Minestra",
     "Tiramisù", "Polpette", "Biscotto", "Caramella", "Crostata", "Pane", "Pizza", "Cicoria",
     "Insegna", "Semaforo", "Panchina", "Fontana", "Campanello", "Campana", "Statua",
     "Manichino", "Corriere", "Panettiere", "Barista", "Bagnino", "Tatuatore", "Magazziniere",
@@ -53,7 +53,12 @@ const oggetti = [
     "Automobile", "Macchina da Curire", "Macchina da Scrivere", "Stracretin@", "Stramaledett@", "Strastronz@",
     "Strabastard@", "Strasporc@", "Stralurid@", "Strafastidios@", "Strarincoglionit@", "Rompipalle", "Strarompipalle",
     "Ferro da Stiro", "Regione Veneto", "Venet@", "Ventilatore", "Pantofola", "Stracchino", "Prosciutto",
-    "Prosciutto Cotto", "Prosciutto Crudo", "Speck", "Lampada a LED", "Rai 1", "Rai 2"
+    "Prosciutto Cotto", "Prosciutto Crudo", "Speck", "Lampada a LED", "Rai 1", "Rai 2",
+    "Cubo di Rubik", "Software di Editing", "Compressore ad’Aria", "Stampante 3D", "Casco da Minatore", "Scanner Laser",
+    "Estintore", "Amplificatore WiFi", "Cuscino Cervicale", "Barattolo di Nutella", "Sveglia Digitale", "Termometro",
+    "Motosega Elettrica", "Lente di Ingrandimento", "Tablet Rotto", "Tastiera Meccanica", "Simulatore di Volo",
+    "Lava Pavimenti Automatico", "Controller PS5", "Luce LED RGB", "Occhiali VR", "Termometro a Infrarossi",
+    "Piastra per Capelli", "Auricolari Bluetooth", "Zaino Antifurto", "Calcolatrice Scientifica", "Bidone Aspiratutto"
 ];
 
 // Genera bestemmia
