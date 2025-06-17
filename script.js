@@ -58,7 +58,31 @@ const oggetti = [
     "Estintore", "Amplificatore WiFi", "Cuscino Cervicale", "Barattolo di Nutella", "Sveglia Digitale", "Termometro",
     "Motosega Elettrica", "Lente di Ingrandimento", "Tablet Rotto", "Tastiera Meccanica", "Simulatore di Volo",
     "Lava Pavimenti Automatico", "Controller PS5", "Luce LED RGB", "Occhiali VR", "Termometro a Infrarossi",
-    "Piastra per Capelli", "Auricolari Bluetooth", "Zaino Antifurto", "Calcolatrice Scientifica", "Bidone Aspiratutto"
+    "Piastra per Capelli", "Auricolari Bluetooth", "Zaino Antifurto", "Calcolatrice Scientifica", "Bidone Aspiratutto",
+    "Rettangolare", "Ottaedro", "Proiezione Ortogonale", "Quadrato", "Triangolare", "Circolare", "Cubic@", "Strabic@",
+    "Assonometria Isometrica", "Assonometria Cavaliera", "Assonometria Monometrica", "Pentagonale", "Pentagono",
+    "Rettangolo", "Esagono", "Esagonale", "Ottagono", "Ottagonale", "Diedro", "Triedro", "Poliedro", "OGM", "Dodecagonale",
+    "Decagonale", "Ettagonale", "Ettagono", "Emisfero Boreale", "Emisfero Australe", "Coste Frastagliate", "Vietnamita",
+    "Pakistan@", "Azerbaijan@", "Tajikistan@", "Turkmenistan@", "Afghanistan@", "Uzbekistan@", "Kazakhstan@", "Kyrgyzstan@",
+    "Insetticida", "Tappetino Yoga", "Lava Mani Automatico", "Asciugatore per Animali", "Tavoletta Grafica",
+    "Speaker Smart", "Tenda Antivento", "Pannello LED Solare", "Barbecue Elettrico", "Contapassi Digitale",
+    "Monitor Curvo", "Poltrona Massaggiante", "Ventilatore a Torre", "Spremiagrumi Elettrico", "Mouse Ergonomico",
+    "Piantana LED", "Sottobicchiere Riscaldante", "Stampante Termica", "Box VR", "Drone con Telecamera",
+    "Luce Notturna a Sensore", "Bottiglia Termica", "Mini Frigo USB", "Cornice Digitale", "Guanti Touchscreen",
+    "Powerbank Solare", "Orologio Proiettore", "Supporto per Laptop", "Tagliere Intelligente", "Kit di Saldatura",
+    "Termosmart", "Secchio a Pedale", "Contenitore Sottovuoto", "Multipresa Intelligente", "Cavo HDMI Flessibile",
+    "Robot Aspirapolvere", "Fornello a Induzione", "Pad Riscaldante", "Umidificatore Portatile", "Specchio con LED",
+    "Organizer da Scrivania", "Mini Videoproiettore", "Bilancia da Cucina", "Spazzolino Elettrico", "Forbici a Batteria",
+    "Stampante per Etichette", "Torcia Dinamo", "Casco VR", "Friggitrice ad Aria", "Timer Magnetico", "Gancio da Porta",
+    "Scatola Porta Cavi", "Pannello Fonoassorbente", "Lampada Antizanzare", "Pattumiera Intelligente",
+    "Tritatutto Elettrico", "Poggiapolsi Ergonomico", "Pompa per Bici Elettrica", "Macchina per Popcorn",
+    "Diffusore di Oli Essenziali", "Tappeto Antiscivolo", "Maniglia Intelligente", "Barra Magnetica",
+    "Macchina per Bubble Tea", "Dispenser per Sapone", "Mini Lavatrice", "Lavapavimenti a Vapore",
+    "Portaoggetti per Doccia", "Occhiali Intelligenti", "Radiolina Portatile", "Termocamera",
+    "Cuscino Riscaldabile", "Mini Scaldapiedi", "Friggitrice Senza Olio", "Scaldapiedi", "5G Ultra Fold", "5G",
+    "Wireless", "Sistema di Raffreddamento", "Conduzione Naturale", "Ombrellone", "eBook", "Email", "Costaricense",
+    "Precipitevolissimevolmente", "Supercalifragilistichespiralidoso", "Mary Poppins", "Ciec@", "Segmento",
+    "Banconota", "Moneta Metallica", "American Express", "Mastercard", "VISA", "Rai Sport", "Lurid@ Bastard@"
 ];
 
 // Genera bestemmia
