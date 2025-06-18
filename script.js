@@ -2,7 +2,7 @@ const soggetti = [
     "Dio", "Gesù", "Cristo", "Madonna", "Spirito Santo",
     "San Pietro", "San Paolo", "San Gennaro", "San Giuseppe",
     "Sant’Antonio", "San Francesco", "Santa Maria", "Santa Chiara",
-    "Trinità", "Papa", "Messia", "Signore"
+    "Trinità", "Papa", "Messia", "Signore", "Vaticano", "Radio Maria", "Maria"
 ];
 
 const oggetti = [
@@ -110,7 +110,7 @@ const oggetti = [
     "Cuscinetto per Mouse", "Pennarelli Sbiadenti", "Lente per Libro", "Gancio Appenditutto", "Pettine Anti Zanzare",
     "Supporto Anti Rollover", "Barra LED per Armadio", "Faccia da Merda", "Faccia da Culo", "Panettone", "Pandoro",
     "Chiave Inglese", "Pistone", "Cuscinetto a Sfere", "Frizione", "Albero Motore", "Rondella Dentata", "Mammut",
-    "Canaglia", "Cancar@", "Cancaros@"
+    "Canaglia", "Cancar@", "Cancaros@", "Reazione Chimica", "Furgoncino dei Gelati", "Camioncino dei Gelati", "Deodorante", "Soggetto Economico", "Kane/Kagna", "Vakka", "Vatican@", "Pork@", "Strapork@", "Kretin@", "Strakretin@", "Attestato di Partecipazione", "Burrocacao alla Menta", "Erba Aromatica", "Kankar@, "Strakankar@", "Stracancar@", "Kankaros@", "Strakankaros@", "Vatikan@", "Previsione del Meteo", "Tempo Meteorologico", "Skifos@", "Straskifos@", "Guardrail", "Merdos@"
 ];
 
 // Genera bestemmia
