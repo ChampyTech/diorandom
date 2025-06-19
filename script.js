@@ -32,7 +32,7 @@ const oggetti = [
     "Cacciavite", "Trivella", "Palo della Luce", "Semolino", "Spray Igienizzante", "Tenda da Campeggio",
     "Disco Volante", "Borsa Frigo", "Bancomat", "Cintura di Sicurezza", "Carrello della Spesa", "Proiettore",
     "AutoCAD", "Terremoto", "Sigma", "Chad", "Burundi", "Atmosfera", "Pianeta", "Gigante", "Trattore", "Televisione",
-    "Polpettone", "Stagista", "Costumista", "Comunista", "Fascista", "Omosessuale", "Tendone", "Bastard@", "Dev-C++",
+    "Polpettone", "Stagista", "Costumista", "Comunista", "Omosessuale", "Tendone", "Bastard@", "Dev-C++",
     "Volkswagen", "Schifos@", "fa schifo", "Ladr@", "Coglion@", "Maledett@", "Stronz@", "Cubo di Rubik",
     "Libro Scolastico", "Lurid@", "Sporc@", "Poster", "Torta di Fragole", "Congelat@", "Lampadario",
     "Sparacarote", "Tapparella", "Mensola", "Tigre", "Bisonte", "Dinosauro", "Milano", "Amsterdam", "Termosifone",
@@ -110,7 +110,7 @@ const oggetti = [
     "Cuscinetto per Mouse", "Pennarelli Sbiadenti", "Lente per Libro", "Gancio Appenditutto", "Pettine Anti Zanzare",
     "Supporto Anti Rollover", "Barra LED per Armadio", "Faccia da Merda", "Faccia da Culo", "Panettone", "Pandoro",
     "Chiave Inglese", "Pistone", "Cuscinetto a Sfere", "Frizione", "Albero Motore", "Rondella Dentata", "Mammut",
-    "Canaglia", "Cancar@", "Cancaros@", "Reazione Chimica", "Furgoncino dei Gelati", "Camioncino dei Gelati", "Deodorante", "Soggetto Economico", "Kane/Kagna", "Vakka", "Vatican@", "Pork@", "Strapork@", "Kretin@", "Strakretin@", "Attestato di Partecipazione", "Burrocacao alla Menta", "Erba Aromatica", "Kankar@", "Strakankar@", "Stracancar@", "Kankaros@", "Strakankaros@", "Vatikan@", "Previsione del Meteo", "Tempo Meteorologico", "Skifos@", "Straskifos@", "Guardrail", "Merdos@", "Scanat@", "Incubatrice"
+    "Canaglia", "Cancar@", "Cancaros@", "Reazione Chimica", "Furgoncino dei Gelati", "Camioncino dei Gelati", "Deodorante", "Soggetto Economico", "Kane/Kagna", "Vakka", "Vatican@", "Pork@", "Strapork@", "Kretin@", "Strakretin@", "Attestato di Partecipazione", "Burrocacao alla Menta", "Erba Aromatica", "Kankar@", "Strakankar@", "Stracancar@", "Kankaros@", "Strakankaros@", "Vatikan@", "Previsione del Meteo", "Tempo Meteorologico", "Skifos@", "Straskifos@", "Guardrail", "Merdos@", "Scanat@", "Incubatrice", "Costituzione Italiana", "Costituzione Americana", "Bengalese", "Indian@", "DNA", "Visual Studio Code", "Nicaraguense", "Antiguo-barbudan@", "Cuban@"
 ];
 
 // Genera bestemmia
