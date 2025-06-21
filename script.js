@@ -3,7 +3,7 @@ const soggetti = [
     "Dio", "Gesù", "Cristo", "Madonna", "Spirito Santo",
     "San Pietro", "San Paolo", "San Gennaro", "San Giuseppe",
     "Sant’Antonio", "San Francesco", "Santa Maria", "Santa Chiara",
-    "Trinità", "Papa", "Messia", "Signore", "Vaticano", "Radio Maria", "Maria"
+    "Trinità", "Papa", "Messia", "Signore", "Vaticano", "Radio Maria", "Maria", "Città del Vaticano"
 ];
 
 // Lista aggettivi/nomi da attribuire alle divinità
@@ -139,16 +139,16 @@ const oggetti = [
     "Lucertola", "Gecko", "Salamandra", "Tritone", "Rospo", "Rana", "Anfisbena", "Colibrì", "Mangusta", "Tapiro", "Antenato",
     "Cervo", "Alce", "Gru", "Bue", "Bufalo", "Antilope", "Gnu", "Lama", "Pecora", "Capra", "Maiale", "Mucca", "Cavallo",
     "Asino", "Criceto", "Porcospino", "Toporagno", "Scoiattolo Volante", "Furetto", "Lontra", "Castoro", "Ghiro",
-    "Uistitì", "Mandrillo", "Macaco", "Bonobo", "Gorilla", "Scimpanzé", "e i 7 nani"
+    "Uistitì", "Mandrillo", "Macaco", "Bonobo", "Gorilla", "Scimpanzé", "e i 7 nani", "Scaric@", "Discarica", "Pattumiera",
+    "Acque Reflue", "Affluente", "Clown", "Orologio da Polso", "Orologio da Parete", "Sito Web", "Ventilatore Tascabile",
+    "Liceo Scientifico", "Liceo Linguistico", "ITIS", "IPSIA", "Istituto Comprensivo Statale", "Statale", "Governo",
+    "Frigorifero Tascabile"
 ];
 
 // Genera bestemmia
 function generaBestemmia() {
-    const soggetto = soggetti[Math.floor(Math.random() * soggetti.length)];
-    const oggetto = oggetti[Math.floor(Math.random() * oggetti.length)];
-    document.getElementById("bestemmia").textContent = `${soggetto} ${oggetto}`;
+    document.getElementById("bestemmia").textContent = `${soggetti[Math.floor(Math.random() * soggetti.length)]} ${oggetti[Math.floor(Math.random() * oggetti.length)]}`;
 }
 
 // Contatore bestemmie
-const combinazioni = soggetti.length * oggetti.length;
-document.getElementById("contatore").textContent = `${combinazioni}`;
+document.getElementById("contatore").textContent = soggetti.length * oggetti.length;

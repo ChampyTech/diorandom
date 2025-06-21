@@ -1,7 +1,7 @@
 # 🤯 DioRandom
 
 🛐 DioRandom è un generatore satirico di <b>bestemmie creative</b> e surreali.<br>
-🤣 Ogni click ti regala un’accoppiata divina con brand, lavori, oggetti tech e moltissimo altro.<br>
+🤣 Ogni click ti regala un'accoppiata divina con brand, lavori, oggetti tech e moltissimo altro.<br>
 🔢 Combinazioni tipo: <i>Cristo Montanaro</i>, <i>Madonna Puffo</i>, <i>Dio Contadino</i>.<br>
 💿 Il nostro database è in continuo aggiornamento!<br>
 
