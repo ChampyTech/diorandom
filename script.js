@@ -1,3 +1,4 @@
+// Lista divinità da bestemmiare
 const soggetti = [
     "Dio", "Gesù", "Cristo", "Madonna", "Spirito Santo",
     "San Pietro", "San Paolo", "San Gennaro", "San Giuseppe",
@@ -5,6 +6,7 @@ const soggetti = [
     "Trinità", "Papa", "Messia", "Signore", "Vaticano", "Radio Maria", "Maria"
 ];
 
+// Lista aggettivi/nomi da attribuire alle divinità
 const oggetti = [
     "Microsoft", "Google", "Kinder", "Kinder bueno", "GPT", "AI", "PowerPoint", "Microsoft Word", "PDF",
     "WiFi", "Router", "Mouse", "Webcam", "Cloud", "Bluetooth", "Auricolare",
@@ -35,7 +37,7 @@ const oggetti = [
     "Polpettone", "Stagista", "Costumista", "Comunista", "Omosessuale", "Tendone", "Bastard@", "Dev-C++",
     "Volkswagen", "Schifos@", "fa schifo", "Ladr@", "Coglion@", "Maledett@", "Stronz@", "Cubo di Rubik",
     "Libro Scolastico", "Lurid@", "Sporc@", "Poster", "Torta di Fragole", "Congelat@", "Lampadario",
-    "Sparacarote", "Tapparella", "Mensola", "Tigre", "Bisonte", "Dinosauro", "Milano", "Amsterdam", "Termosifone",
+    "Sparacarote", "Tapparella", "Mensola", "Bisonte", "Dinosauro", "Milano", "Amsterdam", "Termosifone",
     "Albero di Natale", "Inutile", "Puzzolente", "Interruttore", "Post-it", "Gnomo", "Libreria", "Insetto",
     "Cavalluccio Marino", "Scaldabagno", "Vasca da Bagno", "Cuscino Termico", "Palloncino Bucato", "Pescepalla",
     "Cacciavite Esagonale", "Telo da Mare", "Infradito", "Rincoglionit@", "Addormentat@", "Addormentat@", "Scatenat@",
@@ -45,7 +47,7 @@ const oggetti = [
     "Straobes@", "Straciccion@", "Ciccion@", "Organizer di Cavi", "Porc@", "Valigia", "Quercia", "Barcone",
     "Figura Retorica", "Equazione di 2° Grado", "Equazione", "Scatolone", "Cassetta Porta Attrezzi", "Carta di Credito",
     "Carta di Debito", "Contactless", "Bancomat", "Carta Regalo", "Vaso da Fiori", "Marciapiede", "Spalafieno",
-    "Cavallo", "Ippopotamo", "Posta Elettronica", "Appendiabiti", "Cappotto", "Portaombrelli", "Ignorante", "Pistacchio",
+    "Cavallo", "Posta Elettronica", "Appendiabiti", "Cappotto", "Portaombrelli", "Ignorante", "Pistacchio",
     "Fibra Ottica", "Sistema Solare", "Cassetto", "Password", "Foglio Protocollo", "Foglio A4", "Cartuccia per Stampanti",
     "Stran@", "Strastran@", "Data Center", "Database", "Autostrada", "Ricettario", "Sparamelanzane", "Tornado",
     "Troglodita", "Trigliceridi", "Colesterolo", "Fosfolipide", "Melone", "Vacca", "Straporc@", "Straboia",
@@ -54,7 +56,7 @@ const oggetti = [
     "Strabastard@", "Strasporc@", "Stralurid@", "Strafastidios@", "Strarincoglionit@", "Rompipalle", "Strarompipalle",
     "Ferro da Stiro", "Regione Veneto", "Venet@", "Ventilatore", "Pantofola", "Stracchino", "Prosciutto",
     "Prosciutto Cotto", "Prosciutto Crudo", "Speck", "Lampada a LED", "Rai 1", "Rai 2",
-    "Cubo di Rubik", "Software di Editing", "Compressore ad’Aria", "Stampante 3D", "Casco da Minatore", "Scanner Laser",
+    "Cubo di Rubik", "Software di Editing", "Compressore ad'Aria", "Stampante 3D", "Casco da Minatore", "Scanner Laser",
     "Estintore", "Amplificatore WiFi", "Cuscino Cervicale", "Barattolo di Nutella", "Sveglia Digitale", "Termometro",
     "Motosega Elettrica", "Lente di Ingrandimento", "Tablet Rotto", "Tastiera Meccanica", "Simulatore di Volo",
     "Lava Pavimenti Automatico", "Controller PS5", "Luce LED RGB", "Occhiali VR", "Termometro a Infrarossi",
@@ -119,7 +121,25 @@ const oggetti = [
     "T-shirt", "T-rex", "Canestro", "Chihuahua", "Scimmia", "Avocado", "Gorilla", "Orangotango", "Pallavolista", "Bruschetta",
     "Cristoforo Colombo", "Homo Sapiens", "Australopiteco", "Bassotto", "Cocomero Marcio", "Anguria andata a Male",
     "Tagliatelle al Cinghiale", "Cinghiale", "Orso", "Pellerossa", "Postamat", "Carta Fedeltà", "NaCl", "Rotaia",
-    "Gruppo Vacanze", "Swiffer", "Penna Scarica", "Penna Usata", "Pezzente", "Cover per Telefoni", "HTML", "CSS"
+    "Gruppo Vacanze", "Swiffer", "Penna Scarica", "Penna Usata", "Pezzente", "Cover per Telefoni", "HTML", "CSS", "Alighieri",
+    "Petrarca", "Boccaccio", "Tasso", "Leopardi", "Manzoni", "Pascoli", "Ungaretti", "Montale", "D'Annunzio", "Foscolo",
+    "Carducci", "Cavolfiore", "Melanzana", "Pomodoro", "Cetriolo", "Finocchio", "Peperone", "Carota", "Zucchina", "Lattuga",
+    "Radicchio", "Rucola", "Bietola", "Cipolla", "Aglio", "Broccolo", "Pisello", "Fagiolino", "Asparago", "Porro", "Sedano",
+    "Rapa", "Zucca", "Barbabietola", "Cachi", "Mango", "Papaya", "Avocado", "Banana", "Fragola", "Anguria", "Melone", "Ciliegia",
+    "Mela", "Pera", "Pesca", "Nettarina", "Albicocca", "Uva", "Ananas", "Kiwi", "Limone", "Mandarino", "Arancia", "Pompelmo",
+    "Fico", "Melagrana", "Lampone", "Mirtillo", "Ribes", "More", "Tamarindo", "Carambola", "Litchi", "Noce", "Nocciola",
+    "Mandorla", "Cocco", "Castagna", "Coccodrillo", "Pipistrello", "Alligatore", "Tirannosauro", "Paguro", "Canguro", "Cammello",
+    "Ippopotamo", "Ornitorinco", "Fenicottero", "Pinguino", "Koala", "Giraffa", "Leone", "Tigre", "Lupo", "Volpe", "Scimmia",
+    "Pantera", "Aquila", "Condor", "Falco", "Civetta", "Gufo", "Serpente", "Tartaruga", "Topo", "Ratto", "Talpa", "Castoro",
+    "Scoiattolo", "Formichiere", "Bradipo", "Delfino", "Balena", "Squalo", "Medusa", "Polpo", "Calamaro", "Granchio",
+    "Gambero", "Aragosta", "Riccio", "Stella Marina", "Cavalluccio Marino", "Corvo", "Cornacchia", "Gabbiano",
+    "Piccione", "Passero", "Canarino", "Pappagallo", "Struzzo", "Emù", "Tacchino", "Gallina", "Gallo", "Anatra",
+    "Oca", "Cigno", "Mosca", "Zanzara", "Ape", "Vespa", "Farfalla", "Cicala", "Coleottero", "Scarabeo", "Cavalletta",
+    "Libellula", "Ragno", "Scorpione", "Lumaca", "Chiocciola", "Verme", "Larva", "Camaleonte", "Iguana", "Drago Barbuto",
+    "Lucertola", "Gecko", "Salamandra", "Tritone", "Rospo", "Rana", "Anfisbena", "Colibrì", "Mangusta", "Tapiro", "Antenato",
+    "Cervo", "Alce", "Gru", "Bue", "Bufalo", "Antilope", "Gnu", "Lama", "Pecora", "Capra", "Maiale", "Mucca", "Cavallo",
+    "Asino", "Criceto", "Porcospino", "Toporagno", "Scoiattolo Volante", "Furetto", "Lontra", "Castoro", "Ghiro",
+    "Uistitì", "Mandrillo", "Macaco", "Bonobo", "Gorilla", "Scimpanzé", "e i 7 nani"
 ];
 
 // Genera bestemmia
