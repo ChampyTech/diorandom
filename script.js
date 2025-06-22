@@ -1,9 +1,8 @@
 // Lista divinità da bestemmiare
 const soggetti = [
-    "Dio", "Gesù", "Cristo", "Madonna", "Spirito Santo",
-    "San Pietro", "San Paolo", "San Gennaro", "San Giuseppe",
+    "Dio", "Gesù", "Cristo", "Madonna", "Spirito Santo", "San Pietro", "San Paolo", "San Gennaro", "San Giuseppe",
     "Sant’Antonio", "San Francesco", "Santa Maria", "Santa Chiara",
-    "Trinità", "Papa", "Messia", "Signore", "Vaticano", "Radio Maria", "Maria", "Città del Vaticano"
+    "Trinità", "Papa", "Messia", "Signore", "Vaticano", "Radio Maria", "Maria", "Città del Vaticano", "Giuda"
 ];
 
 // Lista aggettivi/nomi da attribuire alle divinità
@@ -145,7 +144,7 @@ const oggetti = [
     "Frigorifero Tascabile", "²", "³", "9¾", "Simmetric@", "Asse di Simmetria", "Proiezione Ortogonale", "Animale", "Isaac Newton",
 "Albert Einstein", "Boyle", "Gay-Lussac", "Galileo Galilei", "Nikola Tesla", "Joe Bastianich", "Basilico", "Rosmarino",
 "in Forno a 180°C", "Angolo Acuto", "Angolo Ottuso", "Angolo Retto", "Angolo Piatto", "Angolo Giro", "Rincretinit@",
-"Estate", "Autunno", "Inverno", "Primavera", "Stracane/Stracagna", "Stravagante", "Tagliatelle Fatte in Casa"
+"Estate", "Autunno", "Inverno", "Primavera", "Stracane/Stracagna", "Stravagante", "Tagliatelle Fatte in Casa", "Bollente"
 ];
 
 // Genera bestemmia
