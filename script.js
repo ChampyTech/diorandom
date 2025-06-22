@@ -142,7 +142,10 @@ const oggetti = [
     "Uistitì", "Mandrillo", "Macaco", "Bonobo", "Gorilla", "Scimpanzé", "e i 7 nani", "Scaric@", "Discarica", "Pattumiera",
     "Acque Reflue", "Affluente", "Clown", "Orologio da Polso", "Orologio da Parete", "Sito Web", "Ventilatore Tascabile",
     "Liceo Scientifico", "Liceo Linguistico", "ITIS", "IPSIA", "Istituto Comprensivo Statale", "Statale", "Governo",
-    "Frigorifero Tascabile"
+    "Frigorifero Tascabile", "²", "³", "9¾", "Simmetric@", "Asse di Simmetria", "Proiezione Ortogonale", "Animale", "Isaac Newton",
+"Albert Einstein", "Boyle", "Gay-Lussac", "Galileo Galilei", "Nikola Tesla", "Joe Bastianich", "Basilico", "Rosmarino",
+"in Forno a 180°C", "Angolo Acuto", "Angolo Ottuso", "Angolo Retto", "Angolo Piatto", "Angolo Giro", "Rincretinit@",
+"Estate", "Autunno", "Inverno", "Primavera", "Stracane/Stracagna", "Stravagante", "Tagliatelle Fatte in Casa"
 ];
 
 // Genera bestemmia
