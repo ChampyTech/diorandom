@@ -1,6 +1,6 @@
 // Lista divinità da bestemmiare
 const soggetti = [
-    "Dio", "Gesù", "Cristo", "Madonna", "Spirito Santo",
+    "Dio", "Gesù", "Cristo", "Madonna", "Spirito Santo", "Zeus",
     "San Pietro", "San Paolo", "San Gennaro", "San Giuseppe",
     "Sant’Antonio", "San Francesco", "Santa Maria", "Santa Chiara",
     "Trinità", "Papa", "Messia", "Signore", "Vaticano", "Radio Maria", "Maria", "Città del Vaticano"
@@ -145,7 +145,8 @@ const oggetti = [
     "Frigorifero Tascabile", "Sbronz@", "Porchetta", "Ubriac@", "Astemi@", "Materasso Gonfiabile", "Materasso",
     "Pistola ad'Acqua", "Tostiera", "Bicicletta", "Confezionat@", "Industriale", "Allevamento Intensivo",
     "Cotoletta alla Bolognese", "Spaghetti alla Carbonara", "Pasta all'Amatriciana", "Pasticcio di Carne",
-    "Polvere", "Cuscino Poggiapiedi", "Poggiapiedi", "Sparabestemmie", "COVID-19", "Ignorante", "Disabile", "Sottomarin@", "Acquatic@"
+    "Polvere", "Cuscino Poggiapiedi", "Poggiapiedi", "Sparabestemmie", "COVID-19", "Ignorante", "Disabile", "Sottomarin@",
+    "Acquatic@", "Pikachu", "Goku", "Aereo", "Aeroplano", "Cancello Automatico", "4 tempi", "2 tempi", "Portafiori"
 ];
 
 // Genera bestemmia
