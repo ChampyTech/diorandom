@@ -143,7 +143,9 @@ const oggetti = [
     "Acque Reflue", "Affluente", "Clown", "Orologio da Polso", "Orologio da Parete", "Sito Web", "Ventilatore Tascabile",
     "Liceo Scientifico", "Liceo Linguistico", "ITIS", "IPSIA", "Istituto Comprensivo Statale", "Statale", "Governo",
     "Frigorifero Tascabile", "Sbronz@", "Porchetta", "Ubriac@", "Astemi@", "Materasso Gonfiabile", "Materasso",
-    "Pistola ad'Acqua", "Tostiera", "Bicicletta"
+    "Pistola ad'Acqua", "Tostiera", "Bicicletta", "Confezionat@", "Industriale", "Allevamento Intensivo",
+    "Cotoletta alla Bolognese", "Spaghetti alla Carbonara", "Pasta all'Amatriciana", "Pasticcio di Carne",
+    "Polvere", "Cuscino Poggiapiedi", "Poggiapiedi", "Sparabestemmie"
 ];
 
 // Genera bestemmia
