@@ -145,7 +145,7 @@ const oggetti = [
     "Frigorifero Tascabile", "Sbronz@", "Porchetta", "Ubriac@", "Astemi@", "Materasso Gonfiabile", "Materasso",
     "Pistola ad'Acqua", "Tostiera", "Bicicletta", "Confezionat@", "Industriale", "Allevamento Intensivo",
     "Cotoletta alla Bolognese", "Spaghetti alla Carbonara", "Pasta all'Amatriciana", "Pasticcio di Carne",
-    "Polvere", "Cuscino Poggiapiedi", "Poggiapiedi", "Sparabestemmie"
+    "Polvere", "Cuscino Poggiapiedi", "Poggiapiedi", "Sparabestemmie", "COVID-19", "Ignorante", "Disabile", "Sottomarin@", "Acquatic@"
 ];
 
 // Genera bestemmia
