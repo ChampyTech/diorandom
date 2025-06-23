@@ -15,7 +15,6 @@ h1 {
 
 #descrizione {
     font-size: 18px;
-    margin-top: 30px;
     max-width: 600px;
     width: 100%;
     margin: 50px auto;
@@ -51,4 +50,36 @@ button:hover {
 
 a {
     color: #ccc;
+}
+
+#shareButtons {
+    margin: 50px auto;
+}
+
+#whatsAppButton {
+    background: #22c55e;
+    margin: 10px;
+}
+
+#whatsAppButton:hover {
+    background: #1ca74f;
+}
+
+#whatsAppButton a {
+    text-decoration: none;
+    color: white;
+}
+
+#telegramButton {
+    background: #0088cc;
+    margin: 10px;
+}
+
+#telegramButton:hover {
+    background: #0072ac;
+}
+
+#telegramButton a {
+    text-decoration: none;
+    color: white;
 }
