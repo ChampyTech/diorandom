@@ -13,7 +13,7 @@ h1 {
     font-size: 40px;
 }
 
-#descrizione {
+.descrizione {
     font-size: 18px;
     max-width: 600px;
     width: 100%;
@@ -82,4 +82,15 @@ a {
 #telegramButton a {
     text-decoration: none;
     color: white;
+}
+
+span {
+    font-weight: bold;
+}
+
+.headingDescrizione {
+    font-size: 22px;
+    display: block;
+    margin-bottom: 20px;
+    text-align: center;
 }

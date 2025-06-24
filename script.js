@@ -1,51 +1,16 @@
-// Lista divinità da bestemmiare
-const soggetti = [
-    "Dio", "Gesù", "Cristo", "Madonna", "Spirito Santo", "Zeus",
-    "San Pietro", "San Paolo", "San Gennaro", "San Giuseppe",
-    "Sant’Antonio", "San Francesco", "Santa Maria", "Santa Chiara",
-    "Trinità", "Papa", "Messia", "Signore", "Vaticano", "Radio Maria",
-    "Maria", "Città del Vaticano", "San Pio"
+// Lista divinità maschili da bestemmiare
+const divinitaMaschili = [
+    "Dio", "Gesù", "Cristo", "Spirito Santo", "Zeus", "San Pietro", "San Paolo", "San Gennaro", "San Giuseppe",
+    "Sant'Antonio", "San Francesco", "Papa", "Messia", "Signore", "Vaticano", "San Pio", "Maometto", "Allah"
 ];
 
-// Lista aggettivi/nomi da attribuire alle divinità
-const oggetti = [
-    "Microsoft", "Google", "Kinder", "Kinder bueno", "GPT", "AI", "PowerPoint", "Microsoft Word", "PDF",
-    "WiFi", "Router", "Mouse", "Webcam", "Cloud", "Bluetooth", "Auricolare",
-    "Smartwatch", "SSD", "USB-C", "Cavo HDMI", "Stampante", "Tastiera",
-    "Minecraft", "Crafting Table", "Joystick", "Meccanico", "Ingegnere", "Programmatore",
-    "Panettiere", "Bagnino", "Barista", "Corriere", "Tatuatore", "Magazziniere", "Cameriere",
-    "YouTuber", "Social Media Manager", "Forno Elettrico", "Carta Igienica", "Tram di Milano", "Boia", "Pixelato",
-    "Casse Bluetooth", "Cucchiaio Sporco", "Bidet Intelligente",
-    "Cane/Cagna", "Maial@", "Asin@", "Pavone", "Gatto", "Piatto", "Tazza", "Tram",
-    "Cucchiaio", "Letto", "Doccia", "Sedia", "Frigorifero", "Cuscino", "Armadio", "Tavolo",
-    "Zaino", "Libro", "Matita", "Cimice", "Ragno", "Formica", "Neve", "Fumo", "Nebbia",
-    "Vento", "Fulmine", "Tuono", "Fango", "Erba", "Sabbia", "Terra", "Sasso", "Cemento",
-    "Vite", "Chiodo", "Martello", "Scala", "Corda", "Specchio", "Orologio", "Quadro",
-    "Pannello", "Secchio", "Serpente", "Muro", "Porta", "Finestra", "Tappeto", "Coperta",
-    "Lavatrice", "Forno", "Bidet", "Cesso", "Lavandino", "Cassa", "Minestra",
-    "Tiramisù", "Polpette", "Biscotto", "Caramella", "Crostata", "Pane", "Pizza", "Cicoria",
-    "Insegna", "Semaforo", "Panchina", "Fontana", "Campanello", "Campana", "Statua",
-    "Manichino", "Corriere", "Panettiere", "Barista", "Bagnino", "Tatuatore", "Magazziniere",
-    "Programmatore", "Vigile", "Parrucchiere", "Pescatore", "Benzinaio", "Falegname",
-    "Idraulico", "Giardiniere", "Muratore", "Camionista", "Spazzino", "Fabbro", "Contadino",
-    "Postino", "Dinosauro", "Mummia", "Fantasma", "Cavaliere", "Merda",
-    "Strega", "Vampiro", "Zombi", "Scheletro", "Alieno", "Robot", "Omino", "Bue", "Capra", "Pallone da Basket",
-    "Puffo", "Yogurt alla Fragola", "Cavatappi", "Scatola di Cartone", "Maniglia", "Bottiglia d’Acqua",
-    "Zebra", "Telecomando", "Macchina Fotografica", "Pannello Solare", "Biscottiera", "Limone",
-    "Cacciavite", "Trivella", "Palo della Luce", "Semolino", "Spray Igienizzante", "Tenda da Campeggio",
-    "Disco Volante", "Borsa Frigo", "Bancomat", "Cintura di Sicurezza", "Carrello della Spesa", "Proiettore",
-    "AutoCAD", "Terremoto", "Sigma", "Chad", "Burundi", "Atmosfera", "Pianeta", "Gigante", "Trattore", "Televisione",
-    "Polpettone", "Stagista", "Costumista", "Comunista", "Omosessuale", "Tendone", "Bastard@", "Dev-C++",
-    "Volkswagen", "Schifos@", "fa schifo", "Ladr@", "Coglion@", "Maledett@", "Stronz@", "Cubo di Rubik",
-    "Libro Scolastico", "Lurid@", "Sporc@", "Poster", "Torta di Fragole", "Congelat@", "Lampadario",
-    "Sparacarote", "Tapparella", "Mensola", "Bisonte", "Dinosauro", "Milano", "Amsterdam", "Termosifone",
-    "Albero di Natale", "Inutile", "Puzzolente", "Interruttore", "Post-it", "Gnomo", "Libreria", "Insetto",
-    "Cavalluccio Marino", "Scaldabagno", "Vasca da Bagno", "Cuscino Termico", "Palloncino Bucato", "Pescepalla",
-    "Cacciavite Esagonale", "Telo da Mare", "Infradito", "Rincoglionit@", "Addormentat@", "Addormentat@", "Scatenat@",
-    "Strascatenat@", "Etichettatrice", "Fastidios@", "Sfulminat@", "Strasfulminat@", "Cretin@", "Spray Antizanzare",
-    "Salvadanaio", "Idrossido di Sodio", "Idrossido di Potassio", "Cinese", "Montanar@", "Sparacazzate", "Agricoltore",
-    "Raccolta Differenziata", "Toro", "LGBTQIA+", "Amazon Prime", "Testa di Cazzo", "Portatelefono", "Obes@",
-    "Straobes@", "Straciccion@", "Ciccion@", "Organizer di Cavi", "Porc@", "Valigia", "Quercia", "Barcone",
+// Lista divinità femminili da bestemmiare
+const divinitaFemminili = [
+    "Madonna", "Santa Maria", "Santa Chiara", "Trinità", "Radio Maria", "Maria", "Città del Vaticano"
+];
+
+// Lista aggettivi misti da attribuire alle divinità
+const oggettiMisti = [
     "Figura Retorica", "Equazione di 2° Grado", "Equazione", "Scatolone", "Cassetta Porta Attrezzi", "Carta di Credito",
     "Carta di Debito", "Contactless", "Bancomat", "Carta Regalo", "Vaso da Fiori", "Marciapiede", "Spalafieno",
     "Cavallo", "Posta Elettronica", "Appendiabiti", "Cappotto", "Portaombrelli", "Ignorante", "Pistacchio",
@@ -57,7 +22,7 @@ const oggetti = [
     "Strabastard@", "Strasporc@", "Stralurid@", "Strafastidios@", "Strarincoglionit@", "Rompipalle", "Strarompipalle",
     "Ferro da Stiro", "Regione Veneto", "Venet@", "Ventilatore", "Pantofola", "Stracchino", "Prosciutto",
     "Prosciutto Cotto", "Prosciutto Crudo", "Speck", "Lampada a LED", "Rai 1", "Rai 2",
-    "Cubo di Rubik", "Software di Editing", "Compressore ad'Aria", "Stampante 3D", "Casco da Minatore", "Scanner Laser",
+    "Software di Editing", "Compressore ad'Aria", "Stampante 3D", "Casco da Minatore", "Scanner Laser",
     "Estintore", "Amplificatore WiFi", "Cuscino Cervicale", "Barattolo di Nutella", "Sveglia Digitale", "Termometro",
     "Motosega Elettrica", "Lente di Ingrandimento", "Tablet Rotto", "Tastiera Meccanica", "Simulatore di Volo",
     "Lava Pavimenti Automatico", "Controller PS5", "Luce LED RGB", "Occhiali VR", "Termometro a Infrarossi",
@@ -114,7 +79,7 @@ const oggetti = [
     "Supporto Anti Rollover", "Barra LED per Armadio", "Faccia da Merda", "Faccia da Culo", "Panettone", "Pandoro",
     "Chiave Inglese", "Pistone", "Cuscinetto a Sfere", "Frizione", "Albero Motore", "Rondella Dentata", "Mammut",
     "Canaglia", "Cancar@", "Cancaros@", "Reazione Chimica", "Furgoncino dei Gelati", "Camioncino dei Gelati", "Deodorante",
-    "Soggetto Economico", "Kane/Kagna", "Vakka", "Vatican@", "Pork@", "Strapork@", "Kretin@", "Strakretin@",
+    "Kane/Kagna", "Vakka", "Vatican@", "Pork@", "Strapork@", "Kretin@", "Strakretin@",
     "Attestato di Partecipazione", "Burrocacao alla Menta", "Erba Aromatica", "Kankar@", "Strakankar@", "Stracancar@",
     "Kankaros@", "Strakankaros@", "Vatikan@", "Previsione del Meteo", "Tempo Meteorologico", "Skifos@", "Straskifos@",
     "Guardrail", "Merdos@", "Scanat@", "Incubatrice", "Costituzione Italiana", "Costituzione Americana", "Bengalese",
@@ -148,13 +113,163 @@ const oggetti = [
     "Cotoletta alla Bolognese", "Spaghetti alla Carbonara", "Pasta all'Amatriciana", "Pasticcio di Carne",
     "Polvere", "Cuscino Poggiapiedi", "Poggiapiedi", "Sparabestemmie", "COVID-19", "Ignorante", "Disabile", "Sottomarin@",
     "Acquatic@", "Pikachu", "Goku", "Aereo", "Aeroplano", "Cancello Automatico", "4 tempi", "2 tempi", "Portafiori",
-"Bicarbonato di Sodio", "Zuccherat@", "Zuccherificio", "Panificio", "Cott@ a Vapore", "Pizza Bianca"
+    "Bicarbonato di Sodio", "Zuccherat@", "Zuccherificio", "Panificio", "Cott@ a Vapore", "Pizza Bianca"
+];
+
+// Lista aggettivi maschili da attribuire alle divinità
+const aggettiviMaschili = [
+    "Kinder Bueno", "GPT", "AI", "PowerPoint", "Microsoft Word", "PDF",
+    "WiFi", "Router", "Mouse", "Webcam", "Cloud", "Bluetooth", "Auricolare", "Google Classroom",
+    "Smartwatch", "SSD", "USB-C", "Cavo HDMI", "Stampante", "Tastiera", "Pittore",
+    "Minecraft", "Crafting Table", "Joystick", "Meccanico", "Ingegnere", "Programmatore",
+    "Panettiere", "Bagnino", "Barista", "Corriere", "Tatuatore", "Magazziniere", "Cameriere", "Corriera",
+    "YouTuber", "Social Media Manager", "Forno Elettrico", "Carta Igienica", "Tram di Milano", "Boia",
+    "Casse Bluetooth", "Cucchiaio Sporco", "Bidet Intelligente", "Pixelato",
+    "Cane", "Maiale", "Asino", "Pavone", "Gatto", "Piatto", "Tazza", "Tram",
+    "Cucchiaio", "Letto", "Doccia", "Sedia", "Frigorifero", "Cuscino", "Armadio", "Tavolo",
+    "Zaino", "Libro", "Matita", "Cimice", "Ragno", "Formica", "Neve", "Fumo", "Nebbia",
+    "Vento", "Fulmine", "Tuono", "Fango", "Erba", "Sabbia", "Terra", "Sasso", "Cemento",
+    "Pannello", "Secchio", "Serpente", "Muro", "Porta", "Finestra", "Tappeto", "Coperta",
+    "Lavatrice", "Forno", "Bidet", "Cesso", "Lavandino", "Cassa", "Minestra",
+    "Tiramisù", "Polpette", "Biscotto", "Caramella", "Crostata", "Pane", "Pizza", "Cicoria",
+    "Insegna", "Semaforo", "Panchina", "Fontana", "Campanello", "Campana", "Statua", "Manichino",
+    "Vigile", "Parrucchiere", "Pescatore", "Benzinaio", "Falegname",
+    "Idraulico", "Giardiniere", "Muratore", "Camionista", "Spazzino", "Fabbro", "Contadino",
+    "Postino", "Dinosauro", "Mummia", "Fantasma", "Cavaliere", "Merda",
+    "Strega", "Vampiro", "Zombi", "Scheletro", "Alieno", "Robot", "Omino", "Bue", "Capra", "Pallone da Basket",
+    "Puffo", "Yogurt alla Fragola", "Cavatappi", "Scatola di Cartone", "Maniglia", "Bottiglia d'Acqua",
+    "Zebra", "Telecomando", "Macchina Fotografica", "Pannello Solare", "Biscottiera", "Limone",
+    "Cacciavite", "Trivella", "Palo della Luce", "Semolino", "Spray Igienizzante", "Tenda da Campeggio",
+    "Disco Volante", "Borsa Frigo", "Bancomat", "Cintura di Sicurezza", "Carrello della Spesa", "Proiettore",
+    "AutoCAD", "Terremoto", "Sigma", "Chad", "Burundi", "Atmosfera", "Pianeta", "Gigante", "Trattore", "Televisione",
+    "Polpettone", "Stagista", "Costumista", "Comunista", "Omosessuale", "Tendone", "Bastardo",
+    "Volkswagen", "Schifoso", "fa schifo", "Ladro", "Coglione", "Maledetto", "Stronzo", "Cubo di Rubik",
+    "Libro Scolastico", "Lurido", "Sporco", "Poster", "Torta di Fragole", "Congelato", "Lampadario",
+    "Sparacarote", "Tapparella", "Mensola", "Bisonte", "Dinosauro", "Milano", "Amsterdam", "Termosifone",
+    "Albero di Natale", "Inutile", "Puzzolente", "Interruttore", "Post-it", "Gnomo", "Libreria", "Insetto",
+    "Cavalluccio Marino", "Scaldabagno", "Vasca da Bagno", "Cuscino Termico", "Palloncino Bucato", "Pescepalla",
+    "Cacciavite Esagonale", "Telo da Mare", "Infradito", "Rincoglionito", "Addormentato", "Scatenato",
+    "Strascatenato", "Etichettatrice", "Fastidioso", "Sfulminato", "Strasfulminato", "Cretino", "Spray Antizanzare",
+    "Salvadanaio", "Idrossido di Sodio", "Idrossido di Potassio", "Cinese", "Montanaro", "Sparacazzate", "Agricoltore",
+    "Toro", "LGBTQIA+", "Amazon Prime", "Testa di Cazzo", "Portatelefono", "Obeso",
+    "Straobeso", "Straciccione", "Ciccione", "Organizer di Cavi", "Porco", "Valigia", "Quercia", "Barcone",
+];
+
+// Lista aggettivi femminili da attribuire alle divinità
+const aggettiviFemminili = [
+    "Kinder Bueno", "GPT", "AI", "PowerPoint", "Microsoft Word", "PDF",
+    "WiFi", "Router", "Mouse", "Webcam", "Cloud", "Bluetooth", "Auricolare", "Google Classroom",
+    "Smartwatch", "SSD", "USB-C", "Cavo HDMI", "Stampante", "Tastiera", "Puttana",
+    "Minecraft", "Crafting Table", "Joystick", "Meccanica", "Ingegnere", "Programmatrice", "Pittrice",
+    "Panettiera", "Bagnina", "Barista", "Corriere", "Tatuatrice", "Magazziniera", "Cameriera", "Corriera",
+    "YouTuber", "Social Media Manager", "Forno Elettrico", "Carta Igienica", "Tram di Milano", "Boia",
+    "Casse Bluetooth", "Cucchiaio Sporco", "Bidet Intelligente", "Pixelata",
+    "Cane/Cagna", "Maiala", "Asina", "Pavone", "Gatto", "Piatto", "Tazza", "Tram",
+    "Cucchiaio", "Letto", "Doccia", "Sedia", "Frigorifero", "Cuscino", "Armadio", "Tavolo",
+    "Zaino", "Libro", "Matita", "Cimice", "Ragno", "Formica", "Neve", "Fumo", "Nebbia",
+    "Vento", "Fulmine", "Tuono", "Fango", "Erba", "Sabbia", "Terra", "Sasso", "Cemento",
+    "Pannello", "Secchio", "Serpente", "Muro", "Porta", "Finestra", "Tappeto", "Coperta",
+    "Lavatrice", "Forno", "Bidet", "Cesso", "Lavandino", "Cassa", "Minestra",
+    "Tiramisù", "Polpette", "Biscotto", "Caramella", "Crostata", "Pane", "Pizza", "Cicoria",
+    "Insegna", "Semaforo", "Panchina", "Fontana", "Campanello", "Campana", "Statua", "Manichino",
+    "Vigile", "Parrucchiera", "Pescatrice", "Benzinaia", "Falegname",
+    "Idraulica", "Giardiniera", "Muratrice", "Camionista", "Spazzina", "Fabbro", "Contadina",
+    "Postina", "Dinosauro", "Mummia", "Fantasma", "Cavaliera", "Merda",
+    "Strega", "Vampiro", "Zombi", "Scheletro", "Alieno", "Robot", "Omino", "Bue", "Capra", "Pallone da Basket",
+    "Puffo", "Yogurt alla Fragola", "Cavatappi", "Scatola di Cartone", "Maniglia", "Bottiglia d'Acqua",
+    "Zebra", "Telecomando", "Macchina Fotografica", "Pannello Solare", "Biscottiera", "Limone",
+    "Cacciavite", "Trivella", "Palo della Luce", "Semolino", "Spray Igienizzante", "Tenda da Campeggio",
+    "Disco Volante", "Borsa Frigo", "Bancomat", "Cintura di Sicurezza", "Carrello della Spesa", "Proiettore",
+    "AutoCAD", "Terremoto", "Sigma", "Chad", "Burundi", "Atmosfera", "Pianeta", "Gigante", "Trattore", "Televisione",
+    "Polpettone", "Stagista", "Costumista", "Comunista", "Omosessuale", "Tendone", "Bastarda",
+    "Volkswagen", "Schifosa", "fa schifo", "Ladra", "Cogliona", "Maledetta", "Stronza", "Cubo di Rubik",
+    "Libro Scolastico", "Lurida", "Sporca", "Poster", "Torta di Fragole", "Congelata", "Lampadario",
+    "Sparacarote", "Tapparella", "Mensola", "Bisonte", "Dinosauro", "Milano", "Amsterdam", "Termosifone",
+    "Albero di Natale", "Inutile", "Puzzolente", "Interruttore", "Post-it", "Gnomo", "Libreria", "Insetto",
+    "Cavalluccio Marino", "Scaldabagno", "Vasca da Bagno", "Cuscino Termico", "Palloncino Bucato", "Pescepalla",
+    "Cacciavite Esagonale", "Telo da Mare", "Infradito", "Rincoglionita", "Addormentata", "Scatenata",
+    "Strascatenata", "Etichettatrice", "Fastidiosa", "Sfulminata", "Strasfulminata", "Cretina", "Spray Antizanzare",
+    "Salvadanaio", "Idrossido di Sodio", "Idrossido di Potassio", "Cinese", "Montanara", "Sparacazzate", "Agricoltore",
+    "Toro", "LGBTQIA+", "Amazon Prime", "Testa di Cazzo", "Portatelefono", "Obesa",
+    "Straobesa", "Stracicciona", "Cicciona", "Organizer di Cavi", "Porc@", "Valigia", "Quercia", "Barcone",
+];
+
+// Lista prefissi maschili da attribuire alle divinità
+const prefissiMaschili = [
+    "Porco", "Mannaggia a", "Maledetto", "Ladro", "Schifoso", "Boia", "Fastidioso", "Merda", "Bastardo",
+    "Coglione", "Stronzo", "Lurido", "Sporco", "Rincoglionito", "Addormentato", "Scatenato",
+    "Strascatenato", "Fastidioso", "Sfulminato", "Strasfulminato", "Cretino", "Ciccione",
+];
+
+// Lista prefissi femminili da attribuire alle divinità
+const prefissiFemminili = [
+    "Porca", "Mannaggia alla", "Maledetta", "Ladra", "Schifosa", "Boia", "Fastidiosa", "Merda", "Bastarda",
+    "Cogliona", "Stronza", "Lurida", "Sporca", "Rincoglionita", "Addormentata", "Scatenata",
+    "Fastidiosa", "Sfulminata", "Cretina", "Cicciona",
 ];
 
 // Genera bestemmia
 function generaBestemmia() {
-    document.getElementById("bestemmia").textContent = `${soggetti[Math.floor(Math.random() * soggetti.length)]} ${oggetti[Math.floor(Math.random() * oggetti.length)]}`;
+    function getRandom(arr) { return arr[Math.floor(Math.random() * arr.length)] };
+
+    const isMaschile = Math.random() < 0.5;
+
+    const divinita = isMaschile ? getRandom(divinitaMaschili) : getRandom(divinitaFemminili);
+    const aggettivo1 = isMaschile ? getRandom(aggettiviMaschili) : getRandom(aggettiviFemminili);
+    const aggettivo2 = isMaschile ? getRandom(aggettiviMaschili) : getRandom(aggettiviFemminili);
+    const prefisso = isMaschile ? getRandom(prefissiMaschili) : getRandom(prefissiFemminili);
+
+    const formato = Math.floor(Math.random() * 5);
+
+    let frase = "";
+
+    switch (formato) {
+        case 0: // divinità + aggettivo
+            frase = `${divinita} ${aggettivo1}`;
+            break;
+        case 1: // divinità + aggettivo1 + aggettivo2
+            frase = `${divinita} ${aggettivo1} ${aggettivo2}`;
+            break;
+        case 2: // prefisso + divinità + aggettivo1
+            frase = `${prefisso} ${divinita} ${aggettivo1}`;
+            break;
+        case 3: // prefisso + divinità + aggettivo1 + aggettivo2
+            frase = `${prefisso} ${divinita} ${aggettivo1} ${aggettivo2}`;
+            break;
+        case 4: // prefisso + divinità
+            frase = `${prefisso} ${divinita}`;
+            break;
+    };
+
+    document.getElementById("bestemmia").textContent = frase;
 }
 
 // Contatore bestemmie
-document.getElementById("contatore").textContent = soggetti.length * oggetti.length;
+let bestemmieTotali =
+    // divinità + aggettivo
+    divinitaMaschili.length * aggettiviMaschili.length +
+    divinitaFemminili.length * aggettiviFemminili.length +
+    // divinità + aggettivo1 + aggettivo2
+    divinitaMaschili.length * aggettiviMaschili.length * aggettiviMaschili.length +
+    divinitaFemminili.length * aggettiviFemminili.length * aggettiviFemminili.length +
+    // prefisso + divinità + aggettivo
+    prefissiMaschili.length * divinitaMaschili.length * aggettiviMaschili.length +
+    prefissiFemminili.length * divinitaFemminili.length * aggettiviFemminili.length +
+    // prefisso + divinità + aggettivo1 + aggettivo2
+    prefissiMaschili.length * divinitaMaschili.length * aggettiviMaschili.length * aggettiviMaschili.length +
+    prefissiFemminili.length * divinitaFemminili.length * aggettiviFemminili.length * aggettiviFemminili.length +
+    // prefisso + divinità
+    prefissiMaschili.length * divinitaMaschili.length +
+    prefissiFemminili.length * divinitaFemminili.length;
+
+// Informazioni approfondite
+document.getElementById("bestemmieTotali").textContent = bestemmieTotali.toLocaleString("it-IT");
+document.getElementById("divinitaTotali").textContent = (divinitaMaschili.length + divinitaFemminili.length).toLocaleString("it-IT");
+document.getElementById("divinitaMaschili").textContent = divinitaMaschili.length.toLocaleString("it-IT");
+document.getElementById("divinitaFemminili").textContent = divinitaFemminili.length.toLocaleString("it-IT");
+document.getElementById("aggettiviTotali").textContent = (aggettiviMaschili.length + aggettiviFemminili.length).toLocaleString("it-IT");
+document.getElementById("aggettiviMaschili").textContent = aggettiviMaschili.length.toLocaleString("it-IT");
+document.getElementById("aggettiviFemminili").textContent = aggettiviFemminili.length.toLocaleString("it-IT");
+document.getElementById("prefissiTotali").textContent = (prefissiMaschili.length + prefissiFemminili.length).toLocaleString("it-IT");
+document.getElementById("prefissiMaschili").textContent = prefissiMaschili.length.toLocaleString("it-IT");
+document.getElementById("prefissiFemminili").textContent = prefissiFemminili.length.toLocaleString("it-IT");

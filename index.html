@@ -27,29 +27,52 @@
     <div id="bestemmia">Premi il bottone per generare</div>
     <button onclick="generaBestemmia()">Bestemmia!</button>
 
-    <div id="descrizione">
+    <div class="descrizione">
+        <span class="headingDescrizione">Informazioni utili</span>
+
         🛐 DioRandom è un generatore satirico di <b>bestemmie creative</b> e surreali.<br>
         🤣 Ogni click ti regala un'accoppiata divina con brand, lavori, oggetti tech e moltissimo altro.<br>
         🔢 Combinazioni tipo: <i>Cristo Montanaro</i>, <i>Madonna Puffo</i>, <i>Dio Contadino</i>.<br>
-        💿 Il nostro database attualmente contiene <b><span id="contatore">10236</span> bestemmie creative</b> (e in
-        continuo aggiornamento!).
-        <br><br>
+        💿 Il nostro database è in continuo aggiornamento!<br>
+        <br>
         💡 Hai un'<b>idea</b>? Vuoi aggiungere qualcosa di geniale?
-        <a href="https://github.com/ChampyTech/DioRandom/issues" target="_blank">Apri una issue su GitHub!</a>
-        <br><br>
+        <a href="https://github.com/ChampyTech/DioRandom/issues/new" target="_blank">Apri una issue su GitHub!</a><br>
+        <br>
         ⚠️ Questo sito ha uno scopo <b>puramente umoristico</b> e satirico. Non è volto a offendere alcuna
         religione o credenza. Se ti senti offeso, chiudi il sito e abbi una buona giornata!
     </div>
 
+    <div class="descrizione">
+        <span class="headingDescrizione">Informazioni approfondite</span>
+
+        - Bestemmie totali: <span id="bestemmieTotali"></span><br>
+        - Divinità totali: <span id="divinitaTotali"></span><br>
+        &nbsp;&nbsp; - Maschili: <span id="divinitaMaschili"></span><br>
+        &nbsp;&nbsp; - Femminili: <span id="divinitaFemminili"></span><br>
+        - Aggettivi totali: <span id="aggettiviTotali"></span><br>
+        &nbsp; - Maschili: <span id="aggettiviMaschili"></span><br>
+        &nbsp; - Femminili: <span id="aggettiviFemminili"></span><br>
+        - Prefissi totali: <span id="prefissiTotali"></span><br>
+        &nbsp; - Maschili: <span id="prefissiMaschili"></span><br>
+        &nbsp; - Femminili: <span id="prefissiFemminili"></span><br>
+        <br>
+        I 5 formati di bestemmia:<br>
+        &nbsp; 1. divinità + aggettivo<br>
+        &nbsp; 2. divinità + aggettivo1 + aggettivo2<br>
+        &nbsp; 3. prefisso + divinità + aggettivo1<br>
+        &nbsp; 4. prefisso + divinità + aggettivo1 + aggettivo2<br>
+        &nbsp; 5. prefisso + divinità
+    </div>
+
     <div id="shareButtons">
         <button id="whatsAppButton">
-            <i class="fa-brands fa-whatsapp fa-lg"></i>
+            <i class="fa-brands fa-whatsapp fa-lg"></i>&nbsp;
             <a
                 href="https://api.whatsapp.com/send?text=Dai%20un%27occhiata%20a%20questo%20bellissimo%20sito%21%20https%3A%2F%2Fchampytech.github.io%2FDioRandom%2F%0AGenera%20bestemmie%20creative%20e%20surreali.">Condividi
                 su WhatsApp</a>
         </button>
         <button id="telegramButton">
-            <i class="fa-brands fa-telegram fa-lg"></i>
+            <i class="fa-brands fa-telegram fa-lg"></i>&nbsp;
             <a
                 href="https://telegram.me/share/url?url=Dai%20un%27occhiata%20a%20questo%20bellissimo%20sito%21%20https%3A%2F%2Fchampytech.github.io%2FDioRandom%2F%0AGenera%20bestemmie%20creative%20e%20surreali.">Condividi
                 su Telegram</a>
