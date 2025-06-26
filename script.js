@@ -148,7 +148,8 @@ const aggettiviMaschili = [
     "Cotoletta alla Bolognese", "Spaghetti alla Carbonara", "Pasta all'Amatriciana", "Pasticcio di Carne",
     "Polvere", "Cuscino Poggiapiedi", "Poggiapiedi", "Sparabestemmie", "COVID-19", "Ignorante", "Disabile", "Sottomarino",
     "Acquatico", "Pikachu", "Goku", "Aereo", "Aeroplano", "Cancello Automatico", "4 tempi", "2 tempi", "Portafiori",
-    "Bicarbonato di Sodio", "Zuccherato", "Zuccherificio", "Panificio", "Cotto a Vapore", "Pizza Bianca",
+    "Bicarbonato di Sodio", "Zuccherato", "Zuccherificio", "Panificio", "Cotto a Vapore", "Pizza Bianca", "nel Cesso", "Cesso",
+    "Bestia", "Mercante", "Ebete", "Smerigliatrice"
 ];
 
 // Lista aggettivi femminili da attribuire alle divinità
@@ -290,14 +291,15 @@ const aggettiviFemminili = [
     "Cotoletta alla Bolognese", "Spaghetti alla Carbonara", "Pasta all'Amatriciana", "Pasticcio di Carne",
     "Polvere", "Cuscino Poggiapiedi", "Poggiapiedi", "Sparabestemmie", "COVID-19", "Ignorante", "Disabile", "Sottomarina",
     "Acquatica", "Pikachu", "Goku", "Aereo", "Aeroplano", "Cancello Automatico", "4 tempi", "2 tempi", "Portafiori",
-    "Bicarbonato di Sodio", "Zuccherata", "Zuccherificio", "Panificio", "Cotta a Vapore", "Pizza Bianca",
+    "Bicarbonato di Sodio", "Zuccherata", "Zuccherificio", "Panificio", "Cotta a Vapore", "Pizza Bianca", "nel Cesso", "Cesso",
+    "Bestia", "Mercante", "Ebete", "Smerigliatrice"
 ];
 
 // Lista prefissi maschili da attribuire alle divinità
 const prefissiMaschili = [
     "Porco", "Mannaggia a", "Maledetto", "Ladro", "Schifoso", "Boia", "Fastidioso", "Merda", "Bastardo",
     "Coglione", "Stronzo", "Lurido", "Sporco", "Rincoglionito", "Addormentato", "Scatenato", "Lurido",
-    "Fastidioso", "Sfulminato", "Cretino", "Ciccione", "Stramerda", "Straporco", "Stramaiale",
+    "Fastidioso", "Sfulminato", "Cretino", "Ciccione", "Stramerda", "Straporco", "Stramaiale", "Bestia"
 ];
 
 // Lista prefissi femminili da attribuire alle divinità
@@ -305,7 +307,7 @@ const prefissiFemminili = [
     "Porca", "Mannaggia alla", "Maledetta", "Ladra", "Schifosa", "Boia", "Fastidiosa", "Merda", "Bastarda",
     "Cogliona", "Stronza", "Lurida", "Sporca", "Rincoglionita", "Addormentata", "Scatenata", "Lurida",
     "Fastidiosa", "Sfulminata", "Cretina", "Cicciona", "Stramerda", "Quella vacca della", "Vacca",
-    "Straporca", "Stramaiala", "Puttana",
+    "Straporca", "Stramaiala", "Puttana", "Bestia"
 ];
 
 // Genera bestemmia
