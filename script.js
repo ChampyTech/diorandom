@@ -149,7 +149,7 @@ const aggettiviMaschili = [
     "Polvere", "Cuscino Poggiapiedi", "Poggiapiedi", "Sparabestemmie", "COVID-19", "Ignorante", "Disabile", "Sottomarino",
     "Acquatico", "Pikachu", "Goku", "Aereo", "Aeroplano", "Cancello Automatico", "4 tempi", "2 tempi", "Portafiori",
     "Bicarbonato di Sodio", "Zuccherato", "Zuccherificio", "Panificio", "Cotto a Vapore", "Pizza Bianca", "nel Cesso", "Cesso",
-    "Bestia", "Mercante", "Ebete", "Smerigliatrice", "Impestato", "Stupido", "Cagnolino",
+    "Bestia", "Mercante", "Ebete", "Smerigliatrice", "Impestato", "Stupido", "Cagnolino", "Marcio",
 ];
 
 // Lista aggettivi femminili da attribuire alle divinità
@@ -292,7 +292,7 @@ const aggettiviFemminili = [
     "Polvere", "Cuscino Poggiapiedi", "Poggiapiedi", "Sparabestemmie", "COVID-19", "Ignorante", "Disabile", "Sottomarina",
     "Acquatica", "Pikachu", "Goku", "Aereo", "Aeroplano", "Cancello Automatico", "4 tempi", "2 tempi", "Portafiori",
     "Bicarbonato di Sodio", "Zuccherata", "Zuccherificio", "Panificio", "Cotta a Vapore", "Pizza Bianca", "nel Cesso", "Cesso",
-    "Bestia", "Mercante", "Ebete", "Smerigliatrice", "Impestata", "Stupida", "Cagnolina",
+    "Bestia", "Mercante", "Ebete", "Smerigliatrice", "Impestata", "Stupida", "Cagnolina", "Marcia",
 ];
 
 // Lista prefissi maschili da attribuire alle divinità
