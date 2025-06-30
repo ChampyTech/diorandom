@@ -1,17 +1,17 @@
 // Lista divinità maschili da bestemmiare
 const divinitaMaschili = [
     "Dio", "Gesù", "Cristo", "Spirito Santo", "Zeus", "San Pietro", "San Paolo", "San Gennaro", "San Giuseppe",
-    "Sant'Antonio", "San Francesco", "Papa", "Messia", "Signore", "Vaticano", "San Pio", "Maometto", "Allah"
+    "Sant'Antonio", "San Francesco", "Il Papa", "Il Messia", "Signore", "Il Vaticano", "San Pio", "Maometto", "Allah",
 ];
 
 // Lista divinità femminili da bestemmiare
 const divinitaFemminili = [
-    "Madonna", "Santa Maria", "Santa Chiara", "Trinità", "Radio Maria", "Maria", "Città del Vaticano"
+    "Madonna", "Santa Maria", "Santa Chiara", "Trinità", "Radio Maria", "Maria", "Città del Vaticano",
 ];
 
 // Lista aggettivi maschili da attribuire alle divinità
 const aggettiviMaschili = [
-    "Kinder Bueno", "GPT", "AI", "PowerPoint", "Microsoft Word", "PDF",
+    "Kinder Bueno", "GPT", "AI", "PowerPoint", "Microsoft Word", "PDF", "Onto",
     "WiFi", "Router", "Mouse", "Webcam", "Cloud", "Bluetooth", "Auricolare", "Google Classroom",
     "Smartwatch", "SSD", "USB-C", "Cavo HDMI", "Stampante", "Tastiera", "Pittore",
     "Minecraft", "Crafting Table", "Joystick", "Meccanico", "Ingegnere", "Programmatore",
@@ -149,11 +149,12 @@ const aggettiviMaschili = [
     "Polvere", "Cuscino Poggiapiedi", "Poggiapiedi", "Sparabestemmie", "COVID-19", "Ignorante", "Disabile", "Sottomarino",
     "Acquatico", "Pikachu", "Goku", "Aereo", "Aeroplano", "Cancello Automatico", "4 tempi", "2 tempi", "Portafiori",
     "Bicarbonato di Sodio", "Zuccherato", "Zuccherificio", "Panificio", "Cotto a Vapore", "Pizza Bianca",
+    "Stupido", "Cagnolino",
 ];
 
 // Lista aggettivi femminili da attribuire alle divinità
 const aggettiviFemminili = [
-    "Kinder Bueno", "GPT", "AI", "PowerPoint", "Microsoft Word", "PDF",
+    "Kinder Bueno", "GPT", "AI", "PowerPoint", "Microsoft Word", "PDF", "Onta",
     "WiFi", "Router", "Mouse", "Webcam", "Cloud", "Bluetooth", "Auricolare", "Google Classroom",
     "Smartwatch", "SSD", "USB-C", "Cavo HDMI", "Stampante", "Tastiera", "Puttana",
     "Minecraft", "Crafting Table", "Joystick", "Meccanica", "Ingegnere", "Programmatrice", "Pittrice",
@@ -291,6 +292,7 @@ const aggettiviFemminili = [
     "Polvere", "Cuscino Poggiapiedi", "Poggiapiedi", "Sparabestemmie", "COVID-19", "Ignorante", "Disabile", "Sottomarina",
     "Acquatica", "Pikachu", "Goku", "Aereo", "Aeroplano", "Cancello Automatico", "4 tempi", "2 tempi", "Portafiori",
     "Bicarbonato di Sodio", "Zuccherata", "Zuccherificio", "Panificio", "Cotta a Vapore", "Pizza Bianca",
+    "Stupida", "Cagnolina",
 ];
 
 // Lista prefissi maschili da attribuire alle divinità
