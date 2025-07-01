@@ -6,7 +6,7 @@
 💿 Il nostro database è in continuo aggiornamento!<br>
 📚 Non trovi un'informazione che stai cercando? Prova a dare un'occhiata al sito: lì troverai tutte le statistiche (ad esempio bestemmie totali) aggiornate in tempo reale!<br>
 
-💡 Hai un'<b>idea</b>? Vuoi aggiungere qualcosa di geniale? <a href="https://github.com/ChampyTech/DioRandom/issues/new" target="_blank">Apri una issue su GitHub!</a><br>
+💡 Hai un'<b>idea</b>? Vuoi aggiungere qualcosa di geniale? <a href="https://github.com/ChampyTech/diorandom/issues/new" target="_blank">Apri una issue su GitHub!</a><br>
 
 ⚠️ Questo sito ha uno scopo <b>puramente umoristico</b> e satirico. Non è volto a offendere alcuna religione o credenza. Se ti senti offeso, chiudi il sito e abbi una buona giornata!
 
