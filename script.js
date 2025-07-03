@@ -11,24 +11,21 @@ const divinitaFemminili = [
 
 // Lista aggettivi maschili da attribuire alle divinità
 const aggettiviMaschili = [
-    "Kinder Bueno", "GPT", "AI", "PowerPoint", "Microsoft Word", "PDF", "Onto",
+    "Kinder Bueno", "GPT", "AI", "PowerPoint", "Microsoft Word", "PDF", "Onto", "Vento", "Fulmine", "Tuono",
     "WiFi", "Router", "Mouse", "Webcam", "Cloud", "Bluetooth", "Auricolare", "Google Classroom",
     "Smartwatch", "SSD", "USB-C", "Cavo HDMI", "Stampante", "Tastiera", "Pittore",
     "Minecraft", "Crafting Table", "Joystick", "Meccanico", "Ingegnere", "Programmatore",
     "Panettiere", "Bagnino", "Barista", "Corriere", "Tatuatore", "Magazziniere", "Cameriere", "Corriera",
     "YouTuber", "Social Media Manager", "Forno Elettrico", "Carta Igienica", "Tram di Milano", "Boia",
-    "Casse Bluetooth", "Cucchiaio Sporco", "Bidet Intelligente", "Pixelato",
-    "Cane", "Maiale", "Asino", "Pavone", "Gatto", "Piatto", "Tazza", "Tram",
-    "Cucchiaio", "Letto", "Doccia", "Sedia", "Frigorifero", "Cuscino", "Armadio", "Tavolo",
-    "Zaino", "Libro", "Matita", "Cimice", "Ragno", "Formica", "Neve", "Fumo", "Nebbia",
-    "Vento", "Fulmine", "Tuono", "Fango", "Erba", "Sabbia", "Terra", "Sasso", "Cemento",
-    "Pannello", "Secchio", "Serpente", "Muro", "Porta", "Finestra", "Tappeto", "Coperta",
-    "Lavatrice", "Forno", "Bidet", "Cesso", "Lavandino", "Cassa", "Minestra",
+    "Casse Bluetooth", "Cucchiaio Sporco", "Bidet Intelligente", "Pixelato", "Gatto", "Piatto", "Tazza", "Tram",
+    "Cucchiaio", "Letto", "Doccia", "Sedia", "Frigorifero", "Cuscino", "Armadio", "Tavolo", "Fumo", "Nebbia",
+    "Zaino", "Libro", "Matita", "Cimice", "Ragno", "Formica", "Neve", "Sabbia", "Terra", "Fango", "Erba",
+    "Pannello", "Secchio", "Serpente", "Muro", "Porta", "Finestra", "Tappeto", "Coperta", "Sasso", "Cemento",
+    "Lavatrice", "Forno", "Bidet", "Cesso", "Lavandino", "Cassa", "Minestra", "Cane", "Maiale", "Asino", "Pavone",
     "Tiramisù", "Polpette", "Biscotto", "Caramella", "Crostata", "Pane", "Pizza", "Cicoria",
     "Insegna", "Semaforo", "Panchina", "Fontana", "Campanello", "Campana", "Statua", "Manichino",
-    "Vigile", "Parrucchiere", "Pescatore", "Benzinaio", "Falegname",
-    "Idraulico", "Giardiniere", "Muratore", "Camionista", "Spazzino", "Fabbro", "Contadino",
-    "Postino", "Dinosauro", "Mummia", "Fantasma", "Cavaliere", "Merda",
+    "Vigile", "Parrucchiere", "Pescatore", "Benzinaio", "Falegname", "Camionista", "Spazzino", "Fabbro", "Contadino",
+    "Postino", "Dinosauro", "Mummia", "Fantasma", "Cavaliere", "Merda", "Idraulico", "Giardiniere", "Muratore",
     "Strega", "Vampiro", "Zombi", "Scheletro", "Alieno", "Robot", "Omino", "Bue", "Capra", "Pallone da Basket",
     "Puffo", "Yogurt alla Fragola", "Cavatappi", "Scatola di Cartone", "Maniglia", "Bottiglia d'Acqua",
     "Zebra", "Telecomando", "Macchina Fotografica", "Pannello Solare", "Biscottiera", "Limone",
@@ -308,7 +305,7 @@ const prefissiFemminili = [
     "Porca", "Mannaggia alla", "Maledetta", "Ladra", "Schifosa", "Boia", "Fastidiosa", "Merda", "Bastarda",
     "Cogliona", "Stronza", "Lurida", "Sporca", "Rincoglionita", "Addormentata", "Scatenata", "Lurida",
     "Fastidiosa", "Sfulminata", "Cretina", "Cicciona", "Stramerda", "Quella Vacca della", "Vacca",
-    "Straporca", "Stramaiala", "Puttana", "Bestia", "Porcella",
+    "Straporca", "Stramaiala", "Puttana", "Bestia", "Porcella", "Puttana la", "Porcella la", "Vacca la",
 ];
 
 // Genera bestemmia
