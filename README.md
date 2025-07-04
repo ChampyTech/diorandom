@@ -10,4 +10,4 @@
 
 ⚠️ Questo sito ha uno scopo <b>puramente umoristico</b> e satirico. Non è volto a offendere alcuna religione o credenza. Se ti senti offeso, chiudi il sito e abbi una buona giornata!
 
-© 2025 DioRandom - Creato da <a href="https://github.com/ChampyTech" target="_blank">ChampyTech</a>
+Made with ❤️ by <b><a href="https://github.com/ChampyTech" target="_blank">ChampyTech</a></b>
