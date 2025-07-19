@@ -1,7 +1,8 @@
 // Lista divinità maschili da bestemmiare
 const divinitaMaschili = [
     "Dio", "Gesù", "Cristo", "Spirito Santo", "Zeus", "San Pietro", "San Paolo", "San Gennaro", "San Giuseppe",
-    "Sant'Antonio", "San Francesco", "Il Papa", "Il Messia", "Signore", "Il Vaticano", "San Pio", "Maometto", "Allah",
+    "Sant'Antonio", "San Francesco", "Il Papa", "Il Messia", "Signore", "Il Vaticano", "San Pio", "Maometto",
+    "Allah", "Giubileo",
 ];
 
 // Lista divinità femminili da bestemmiare
