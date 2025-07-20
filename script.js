@@ -8,6 +8,7 @@ const divinitaMaschili = [
 // Lista divinità femminili da bestemmiare
 const divinitaFemminili = [
     "Madonna", "Santa Maria", "Santa Chiara", "Trinità", "Radio Maria", "Maria", "Città del Vaticano",
+    "Santa Sede",
 ];
 
 // Lista aggettivi maschili da attribuire alle divinità
