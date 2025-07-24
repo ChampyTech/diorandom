@@ -1,4 +1,4 @@
-# 🤯 DioRandom
+# 😂 DioRandom
 
 <a href="https://champytech.github.io/diorandom/">🔗 Visita il sito</a>
 
