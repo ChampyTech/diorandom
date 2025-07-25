@@ -148,7 +148,7 @@ const aggettiviMaschili = [
     "Acquatico", "Pikachu", "Goku", "Aereo", "Aeroplano", "Cancello Automatico", "4 tempi", "2 tempi", "Portafiori",
     "Bicarbonato di Sodio", "Zuccherato", "Zuccherificio", "Panificio", "Cotto a Vapore", "Pizza Bianca", "nel Cesso", "Cesso",
     "Bestia", "Mercante", "Ebete", "Smerigliatrice", "Impestato", "Stupido", "Cagnolino", "Marcio", "Porcello",
-    "Cagnolone",
+    "Cagnolone", "TV", "Colombo",
 ];
 
 // Lista aggettivi femminili da attribuire alle divinità
@@ -288,7 +288,7 @@ const aggettiviFemminili = [
     "Acquatica", "Pikachu", "Goku", "Aereo", "Aeroplano", "Cancello Automatico", "4 tempi", "2 tempi", "Portafiori",
     "Bicarbonato di Sodio", "Zuccherata", "Zuccherificio", "Panificio", "Cotta a Vapore", "Pizza Bianca", "nel Cesso", "Cesso",
     "Bestia", "Mercante", "Ebete", "Smerigliatrice", "Impestata", "Stupida", "Cagnolina", "Marcia", "Porcella",
-    "Cagnolona",
+    "Cagnolona", "TV", "Colomba",
 ];
 
 // Lista prefissi maschili da attribuire alle divinità
